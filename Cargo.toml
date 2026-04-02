@@ -18,7 +18,7 @@ std = []
 blake2b-rs = {version = "0.2.0", optional = true}
 borsh = {version = "1.2.0", optional = true, features = ["unstable__schema", "derive"]}
 cfg-if = "1.0.0"
-ics23     = { git = "https://github.com/permissionlessweb/ics23", branch = "prost-14.1"}
+ics23     = { git = "https://github.com/permissionlessweb/ics23"}
 itertools = "0.14.0"
 sha2 = "0.10.8"
 
